@@ -1,0 +1,26 @@
+#lugia, #totodile, #diancie, #zeraora {
+    width: 300px;
+
+    display: block;
+    margin: 0 auto;
+}
+figcaption {
+    text-align: center;
+}
+.container {
+    height: 80px;
+    position: relative;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#valor, #instinct, #mystic {
+    margin: 5px 5px; */
+    padding: 0 8px;
+    border-radius: 40px;
+}
