@@ -1,0 +1,65 @@
+/* General styling for all of the webpages */
+* {
+    /* Setting these as defaults to help with styling */
+    margin: 0;
+    padding: 0;
+    /* Setting box-sizing to border-box isn't necessary because Bootstrap does that anyway,
+    but I try to make it a habit to set it to that for everything I work on */
+    box-sizing: border-box;
+  }
+header {
+    text-align: center;
+
+    background-color: rgba(105, 105, 105, 0.5);
+
+    height: auto;
+
+    border-bottom: 1px solid;
+}
+header b {
+    display: block;
+
+    font-size: 2em;
+
+    padding: 12px 0;
+}
+nav {
+    padding: 8px 0;
+}
+nav a {
+    color: #000;
+    text-decoration: underline;
+
+    padding: 0 6px;
+}
+nav a:hover {
+    color: #777;
+}
+main {
+    padding: 6% 8%;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.7em;
+}
+h3 {
+    font-size: 1.3em;
+}
+main p {
+    text-indent: 30px;
+}
+footer {
+    text-align: center;
+
+    background-color: rgba(105, 105, 105, 0.3);
+
+    height: auto;
+
+    border-top: 1px solid;
+}
+footer strong {
+    display: inline-block;
+    margin: 10px auto;
+}
